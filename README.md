@@ -1,45 +1,43 @@
-# Project Name Template
+# Alphabet Soup Charity
 
-### Project Description
+### Evaluating charity applications using nueral network machine learning
 
 ##### Authors:
 * John Torgerson (JohnTorgerson)
 ---
 
-##### Instructions:
-Create file `config.py` to pass your user name, password, and port number into variables
-This code will not run unless you first configure the following three variables:
-* user = "postgres"
-* password = "<YOUR PostgreSQL Password HERE>"
-* port = "<Your PostgreSQL Port Number HERE>"
----
-
 ##### Tools & Supplies:
-* < Database and table description here >
+* alphabet soup charity database
 
-* Python, SQLAlchemy, Pandas, Matplotlib, SQLAlchemy ORM queriies were all used for this project < edit or append here as needed>
+* Python, Pandas, Scikit-learn, and TensorFlow
 ---
 
 ### Guide to Repo Contents:
 
-* `sample.file` is < describe contents >
-* `sample.image` is < describe image >
-* In folder, `Resources` are the following 6 tables:
-    1. `sample.sqlite` is < describe contents >
-    2. `sample_data.csv` is < describe contents >
-    3. `more_samples.csv` is < describe contents >
-    
+* `AlphabetSoupCharity_Optimization1.ipynb` is a first copy of the original with modifications 
+* `AlphabetSoupCharity_Optimization2.ipynb` is a second copy with more modifications
+* `AlphabetSoupCharity_Optimization3.ipynb` is a third copy of the original with neural modifications
+* `AlphabetSoupCharity_Optimization4.ipynb` is a fourth copy of the original with meural modifications
+* `AlphabetSoupCharity.ipynb` is the primary notebook created to process and test the data
+* `AlphabetSoupCharity.h5` is a saved copy of the original learning model
+* `AlphabetSoupCharity_Optimization1.h5` is a saved copy of the learning model; 1st modification
+* `AlphabetSoupCharity_Optimization2.h5` is a saved copy of the learning model; 2nd modification
+* `AlphabetSoupCharity_Optimization3.h5` is a saved copy of the learning model; 3rd modification
+* `AlphabetSoupCharity_Optimization4.h5` is a saved copy of the learning model; 4th modification
+* `ReadME.md` is the repo contents file you're currently viewing
+* In folder, `Resources` is the following:
+    1. `charity_data.csv` is the raw charity data
 ---
 
 ### Observations:
-* < List Observations Here >
-* The relationship is inverse.
-* Engineer, Asst Engineer, Senior Engineer have similar AVG Salaries, with Senior Engineers making the least of the group. Meanwhile Senior Staff as well as general Staff, both AVG nearly 12,000 more. Also, from our previous examples, there are an awful lot of women named Hercules B____, which seems improbable.
-* Either something is wrong, or this company data is fictional.
+* The bulk of the work that goes into a machine learning project is in the preprocessing.
+* Once the data is cleaned, the computer does most of the work to deliver the results we're seeking.
+* That being said, there is still a lot to learn and understand about how, when, and which machine learning tools should be implemented.
+* The comprehension mastery of what is going on behind the scenes could take a person years to learn and practice.
+
 
 ---
 
 ### Credits and Special Thanks
 
-* Tom Lenzmeier for sharing a name concatenation technique
-* Thanks to Sanoo Singh for inspiring me to practice subquery method
+* Dr. William Vann for  me through a preprocessing challenge

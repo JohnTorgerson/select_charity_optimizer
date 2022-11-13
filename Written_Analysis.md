@@ -7,7 +7,7 @@
 
 * The target of this model is `IS_SUCCESSFUL`, a column in the dataframe that offers input on the results of charitibale organization models that successfully met their fundraising goals.
 * The features are as follows: `APPLICATON_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS`, `ASK_AMT`
-* The data removed because are neither of the above are: `EIN`, `NAME`
+* The data removed because they meet neither features or target are: `EIN`, `NAME`
 * Many of the features were categorical so one-hot-encoding was used to put binary results into individual categorical input columns. That being said, one of the very few numerical features was `ASK_AMT` which had a tremendous range, therefore the data was scaled so the information wouldn't become weighted, espcially since it did not appear to be a well defining predictor of the result. It may have played a role, but was clearly not isolated well enough that it alone could predict the result of success, as you can see here: 
 
 ![alt text](InvestmentPlot.png "Investment Size Success vs Not Success")
